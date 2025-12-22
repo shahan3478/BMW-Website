@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 971px;
+    height: 584px;
+    background-image: url(img/red-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    margin-left: 541px;
+    margin-top: -428px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+    margin: 50px 150px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 15px 50px;
+    margin: 50px 150px;
+    border-radius: 30px;
+}
+
+.content {
+    margin-top: 10%;
+    margin-left: 8%;
+
+}
+
+.content h2 {
+    color: red;
+    font-size: 34px;
+    margin-bottom: 16px;
+
+}
+
+.content h1 {
+    font-size: 100px;
+    color: #222;
+    margin-top: -25px;
+    font-weight: 600;
+}
+
+.content p {
+    max-width: 380px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+}
+
+.content h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.color-select div {
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.color-select {
+    display: flex;
+    margin-top: 30px;
+}
+.color-select #red{
+    background: red;
+
+}
+.color-select #blue{
+    background: blue;
+
+}
+.color-select #black{
+    background: #000;
+
+}
